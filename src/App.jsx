@@ -7,14 +7,18 @@ function App() {
   const Add = () => {
 if (count >= 20){
   count = count
-}else
-
-    setCount(count +1)
+}else{
+  setCount(count +1)
   };
+}
 
   const remove = ()=>{
+    if (count <= 0){
+      count = count
+    }else{
     setCount(count - 1)
   };
+}
 
   return (
     <>
