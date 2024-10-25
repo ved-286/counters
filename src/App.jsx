@@ -8,6 +8,10 @@ function App() {
     setCount(count +1)
   };
 
+  const remove = ()=>{
+    setCount(count - 1)
+  };
+
   return (
     <>
     <h1>count your number</h1>
