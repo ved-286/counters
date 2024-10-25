@@ -5,6 +5,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   const Add = () => {
+if (count >= 20){
+  count = count
+}else
+
     setCount(count +1)
   };
 
